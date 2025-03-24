@@ -1,4 +1,4 @@
-Dependencies for Project 'ota_app', Target 'STM32F4x1': (DO NOT MODIFY !)
+Dependencies for Project 'ota_bootloader', Target 'STM32F4x1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (..\Core\Src\main.c)(0x67E0B27C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\MDK-ARM -I ..\Core\Inc -I ..\Drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Drivers\CMSIS\Include -I ..\Middlewares\Easylogger\inc-ID:\work_applications\Keil\Core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -DSTM32F411xE-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Core\Inc\main.h)(0x67CF1573)
@@ -137,7 +137,7 @@ I (..\Drivers\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x677C03F9)
 I (..\Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash_ramfunc.h)(0x677C03F9)
 I (..\Core\Inc\main.h)(0x67CF1573)
 F (..\Core\Inc\stm32f4xx_conf.h)(0x677C03F9)()
-F (..\Core\Src\uart.c)(0x67D0DFC7)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\MDK-ARM -I ..\Core\Inc -I ..\Drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Drivers\CMSIS\Include -I ..\Middlewares\Easylogger\inc-ID:\work_applications\Keil\Core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -DSTM32F411xE-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+F (..\Core\Src\uart.c)(0x67E0B334)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\MDK-ARM -I ..\Core\Inc -I ..\Drivers\STM32F4xx_StdPeriph_Driver\inc -I ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I ..\Drivers\CMSIS\Include -I ..\Middlewares\Easylogger\inc-ID:\work_applications\Keil\Core\ARM\CMSIS\Include-D__UVISION_VERSION="532" -DSTM32F411xE -DUSE_STDPERIPH_DRIVER -DSTM32F411xE-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (..\Core\Inc\uart.h)(0x67D0DF69)
 I (D:\work_applications\Keil\Core\ARM\ARMCC\include\stdint.h)(0x5F63877C)
 I (..\Drivers\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x677C03F9)
