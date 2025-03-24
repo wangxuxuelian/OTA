@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: bai wen, 100ask, LIC=UJWP0-BPKXH-ARCXW-Q72HC-BKKDM-U3B9Y
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.32.0.0
+Toolchain Path:  D:\work_applications\Keil\Core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+G:\MCU+RTOS+LVGL\stm32F411CEU6_HAL_project\OTA\04_Software\MDK-ARM\ota_app.uvprojx
+Project File Date:  03/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\work_applications\Keil\Core\ARM\ARMCC\Bin'
+Rebuild target 'STM32F4x1'
+compiling Ymodem.c...
+..\Core\Inc\Ymodem.h(69): warning:  #1-D: last line of file ends without a newline
+  #endif /* __YMODEM_H */
+..\Core\Src\Ymodem.c(165): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\Ymodem.c(165): warning:  #940-D: missing return statement at end of non-void function "ymodem_receive_file" 
+  }
+..\Core\Src\Ymodem.c(128): warning:  #177-D: variable "count"  was declared but never referenced
+      uint32_t count = 0;
+..\Core\Src\Ymodem.c(84): warning:  #550-D: variable "g_ymodem"  was set but never used
+  static ymodem_t g_ymodem;
+..\Core\Src\Ymodem.c(94): warning:  #177-D: function "get_frame"  was declared but never referenced
+  static int get_frame(uint8_t *const buff, uint32_t size, frame_t type)
+..\Core\Src\Ymodem.c: 6 warnings, 0 errors
+assembling startup_stm32f411xe.s...
+compiling flash.c...
+compiling stm32f4xx_gpio.c...
+compiling uart.c...
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling gpio.c...
+compiling main.c...
+..\Core\Src\main.c(100): warning:  #177-D: variable "buff"  was declared but never referenced
+      uint8_t buff[1024];
+..\Core\Src\main.c(101): warning:  #177-D: variable "num"  was declared but never referenced
+      uint32_t num;
+..\Core\Src\main.c: 2 warnings, 0 errors
+compiling stm32f4xx_usart.c...
+compiling tim.c...
+compiling elog_async.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_flash.c...
+compiling misc.c...
+compiling stm32f4xx_rcc.c...
+compiling elog.c...
+compiling elog_buf.c...
+compiling elog_port.c...
+compiling elog_utils.c...
+linking...
+Program Size: Code=14416 RO-data=1280 RW-data=84 ZI-data=2924  
+".\Objects\template.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil.STM32F4xx_DFP.3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
